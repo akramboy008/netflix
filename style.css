@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+   background-size: cover;
+    background-image: url("https://www.lifesavvy.com/p/uploads/2020/01/deb2e2c6.jpg?width=1200");
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(18,18,18);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.479) 30%, rgb(3, 3, 3) 100%);
+}
+.navigation{
+    
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    z-index: 40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation .nav_btn{
+    margin-right: 40px;
+}
+.navigation img{
+    width: 150px;
+    margin-left: 40px;
+}
+.lang{
+    margin-right: 30px;
+    padding: 10px 20px;
+    background-color: transparent ;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid#fff;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.sign{
+    padding: 10px 20px;
+    background-color: #e50f13;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sign:hover{
+    background-color: #ddd;
+}
+.title{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+.banner_text{
+    position:relative;
+    z-index: 45;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+.title_des{
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.searchbar > button{
+    height: 42px;
+    width: 200px;
+    background-color: #e50f13;
+    color: #fff;
+     font-size: 25px;
+     border: none;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
